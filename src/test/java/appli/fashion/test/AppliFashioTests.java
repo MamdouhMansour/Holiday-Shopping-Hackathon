@@ -6,7 +6,7 @@ import com.applitools.eyes.MatchLevel;
 
 import base.Base;
 
-public class test extends Base {
+public class AppliFashioTests extends Base {
 
 	@Test(dataProvider = "versionData")
 	public void validateMainPage(String versionData) {
@@ -46,6 +46,7 @@ public class test extends Base {
 		setStepName(getProperty("Step_2_Name"), versionName);
 		setVersionName(versionName);
 
+		
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			// 2. Set the configuration values we set up in beforeTestSuite
