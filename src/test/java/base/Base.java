@@ -42,11 +42,11 @@ public class Base {
 	private final int viewPortHeight = 800;
 
 	private EyesRunner runner = null;
-	protected Configuration suiteConfig;
-	protected Configuration suiteConfig1;
+	private Configuration suiteConfig;
+	private Configuration suiteConfig1;
 	protected Eyes eyes;
 	protected Eyes eyes1;
-	protected WebDriver webDriver;
+	private WebDriver webDriver;
 	protected Configuration testConfig;
 	protected Configuration testConfig1;
 
@@ -60,6 +60,7 @@ public class Base {
 	public void navigate(String url, String versionName) {
 		WebDriver driver;
 
+		// run the appropriate config base on the URL under testing
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			driver = eyes1.open(webDriver);
@@ -88,6 +89,7 @@ public class Base {
 	}
 
 	public void setTestName(String testName, String versionName) {
+		// run the appropriate config base on the URL under testing
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			testConfig1.setTestName(testName);
@@ -97,6 +99,7 @@ public class Base {
 	}
 
 	public void setStepName(String stepName, String versionName) {
+		// run the appropriate config base on the URL under testing
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			eyes1.addProperty("Step Name", stepName);
@@ -106,6 +109,7 @@ public class Base {
 	}
 
 	public void setMatchLevel(MatchLevel matchLevel, String versionName) {
+		// run the appropriate config base on the URL under testing
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			eyes1.setMatchLevel(matchLevel);
@@ -116,6 +120,7 @@ public class Base {
 
 	// set environment name "dev, version 1, final production version"
 	public void setVersionName(String versionName) {
+		// run the appropriate config base on the URL under testing
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			eyes1.addProperty("Version Name", versionName);
@@ -125,6 +130,7 @@ public class Base {
 	}
 
 	public void validateWindow(String versionName) {
+		// run the appropriate config base on the URL under testing
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			eyes1.checkWindow();
@@ -134,6 +140,7 @@ public class Base {
 	}
 
 	public void validateElement(By locator, String versionName) {
+		// run the appropriate config base on the URL under testing
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			eyes1.checkElement(locator);
@@ -142,6 +149,7 @@ public class Base {
 		}
 	}
 
+	// data provider to repeat the test with the 3 different URLs
 	@DataProvider(name = "versionData")
 	public String[] versionToRun() {
 		String[] url = null;
@@ -166,9 +174,10 @@ public class Base {
 		suiteConfig = new Configuration();
 		suiteConfig1 = new Configuration();
 
-		// Set the various configuration values for final production version
+		// Set the various configuration values for final production version to run over
+		// the required environments
 		suiteConfig
-				// 4. Add Visual Grid browser configurations
+				// Add Visual Grid browser configurations
 				.addBrowser(new DesktopBrowserInfo(viewPortWidth, viewPortHeight, BrowserType.CHROME))
 				.addBrowser(new DesktopBrowserInfo(viewPortWidth, viewPortHeight, BrowserType.FIREFOX))
 				.addBrowser(new DesktopBrowserInfo(viewPortWidth, viewPortHeight, BrowserType.SAFARI))
@@ -181,8 +190,10 @@ public class Base {
 				.setApiKey(getProperty("applitools.api.key")).setBatch(new BatchInfo(getProperty("batchName")))
 				.setAppName(getProperty("appName"));
 
+		// Set the various configuration values for V1 production & Dev versions to run
+		// with Chrome only
 		suiteConfig1
-				// 4. Add Visual Grid browser configurations
+				// Add Visual Grid browser configurations
 				.addBrowser(new DesktopBrowserInfo(viewPortWidth, viewPortHeight, BrowserType.CHROME))
 
 				.setViewportSize(new RectangleSize(viewPortWidth, viewPortHeight))
@@ -194,18 +205,20 @@ public class Base {
 
 	@BeforeMethod
 	public void beforeEachTest(ITestResult result) {
-		// 1. Create the Eyes instance for the test and associate it with the runner
+		// Create the Eyes instance for the test and associate it with the runner
 		eyes = new Eyes(runner);
 		eyes1 = new Eyes(runner);
 
-		// 2. Set the configuration values we set up in beforeTestSuite
+		// Set the configuration values we set up in beforeTestSuite
 		eyes.setConfiguration(suiteConfig);
 		eyes1.setConfiguration(suiteConfig1);
 
-		// 3. Create a WebDriver for the test
+		// Create a WebDriver for the test
 		WebDriverManager.chromedriver().setup();
 		webDriver = new ChromeDriver();
 
+		// Get the configuration for the both versions "Dev - V1 production" & "Final
+		// production"
 		testConfig = eyes.getConfiguration();
 		testConfig1 = eyes1.getConfiguration();
 	}

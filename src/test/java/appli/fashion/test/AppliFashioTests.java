@@ -46,10 +46,9 @@ public class AppliFashioTests extends Base {
 		setStepName(getProperty("Step_2_Name"), versionName);
 		setVersionName(versionName);
 
-		
+		// use appropriate suit configuration with the required url
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
-			// 2. Set the configuration values we set up in beforeTestSuite
 			eyes1.setConfiguration(testConfig1);
 		} else {
 			eyes.setConfiguration(testConfig);
