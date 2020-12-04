@@ -27,7 +27,7 @@ public class AppliFashioTests extends Base {
 		} else {
 			eyes.setConfiguration(testConfig);
 		}
-		setMatchLevel(MatchLevel.LAYOUT, versionName);
+		setMatchLevel(MatchLevel.STRICT, versionName);
 
 		// Navigates to main page
 		navigate(url, versionName);
@@ -46,7 +46,6 @@ public class AppliFashioTests extends Base {
 		setStepName(getProperty("Step_2_Name"), versionName);
 		setVersionName(versionName);
 
-		
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
 			// 2. Set the configuration values we set up in beforeTestSuite
@@ -82,7 +81,7 @@ public class AppliFashioTests extends Base {
 		} else {
 			eyes.setConfiguration(testConfig);
 		}
-		setMatchLevel(MatchLevel.EXACT, versionName);
+		setMatchLevel(MatchLevel.STRICT, versionName);
 
 		// Navigates to main page
 		navigate(url, versionName);
