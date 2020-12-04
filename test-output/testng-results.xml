@@ -1,444 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9"
-	failed="0" skipped="0">
-	<reporter-output>
-	</reporter-output>
-	<suite started-at="2020-12-03T19:07:46 EET" name="Default suite"
-		finished-at="2020-12-03T19:10:35 EET" duration-ms="169915">
-		<groups>
-		</groups>
-		<test started-at="2020-12-03T19:07:46 EET" name="Default test"
-			finished-at="2020-12-03T19:10:35 EET" duration-ms="169915">
-			<class name="appli.fashion.test.test">
-				<test-method is-config="true"
-					signature="beforeTestSuite()[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:07:45 EET" name="beforeTestSuite"
-					finished-at="2020-12-03T19:07:46 EET" duration-ms="88"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeTestSuite -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:07:46 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:07:50 EET" duration-ms="4479"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:07:50 EET" name="checkAppliAirNightPage"
-					data-provider="versionData" finished-at="2020-12-03T19:08:05 EET"
-					duration-ms="15053" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-04T17:47:16 EET" name="Default suite" finished-at="2020-12-04T17:49:29 EET" duration-ms="133117">
+    <groups>
+    </groups>
+    <test started-at="2020-12-04T17:47:16 EET" name="Default test" finished-at="2020-12-04T17:49:29 EET" duration-ms="133117">
+      <class name="appli.fashion.test.AppliFashioTests">
+        <test-method is-config="true" signature="beforeTestSuite()[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:16 EET" name="beforeTestSuite" finished-at="2020-12-04T17:47:16 EET" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:16 EET" name="beforeEachTest" finished-at="2020-12-04T17:47:20 EET" duration-ms="4355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:20 EET" name="checkAppliAirNightPage" data-provider="versionData" finished-at="2020-12-04T17:47:31 EET" duration-ms="11032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonMasterV1.html+V1_Production_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- checkAppliAirNightPage -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:05 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:08:06 EET" duration-ms="715"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=checkAppliAirNightPage status=SUCCESS method=test.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:06 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:08:09 EET" duration-ms="3459"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:09 EET" name="checkAppliAirNightPage"
-					data-provider="versionData" finished-at="2020-12-03T19:08:24 EET"
-					duration-ms="14408" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAppliAirNightPage -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:31 EET" name="afterEachTest" finished-at="2020-12-04T17:47:32 EET" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAppliAirNightPage status=SUCCESS method=AppliFashioTests.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:32 EET" name="beforeEachTest" finished-at="2020-12-04T17:47:35 EET" duration-ms="3132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:35 EET" name="checkAppliAirNightPage" data-provider="versionData" finished-at="2020-12-04T17:47:48 EET" duration-ms="12388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonDev.html+Dev_Branch_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- checkAppliAirNightPage -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:24 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:08:24 EET" duration-ms="715"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=checkAppliAirNightPage status=SUCCESS method=test.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:24 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:08:28 EET" duration-ms="3559"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:28 EET" name="checkAppliAirNightPage"
-					data-provider="versionData" finished-at="2020-12-03T19:08:46 EET"
-					duration-ms="17630" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAppliAirNightPage -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:48 EET" name="afterEachTest" finished-at="2020-12-04T17:47:49 EET" duration-ms="1130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAppliAirNightPage status=SUCCESS method=AppliFashioTests.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:49 EET" name="beforeEachTest" finished-at="2020-12-04T17:47:52 EET" duration-ms="3297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:47:52 EET" name="checkAppliAirNightPage" data-provider="versionData" finished-at="2020-12-04T17:48:05 EET" duration-ms="13395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonMasterV2.html+Final_Production_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- checkAppliAirNightPage -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:46 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:08:46 EET" duration-ms="664"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=checkAppliAirNightPage status=SUCCESS method=test.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:46 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:08:50 EET" duration-ms="3465"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:08:50 EET" name="filterByColor"
-					data-provider="versionData" finished-at="2020-12-03T19:09:03 EET"
-					duration-ms="13350" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAppliAirNightPage -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:05 EET" name="afterEachTest" finished-at="2020-12-04T17:48:06 EET" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAppliAirNightPage status=SUCCESS method=AppliFashioTests.checkAppliAirNightPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:06 EET" name="beforeEachTest" finished-at="2020-12-04T17:48:09 EET" duration-ms="3138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:09 EET" name="filterByColor" data-provider="versionData" finished-at="2020-12-04T17:48:19 EET" duration-ms="9542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonMasterV1.html+V1_Production_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- filterByColor -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:03 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:09:04 EET" duration-ms="735"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=filterByColor status=SUCCESS method=test.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:04 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:09:07 EET" duration-ms="3315"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:07 EET" name="filterByColor"
-					data-provider="versionData" finished-at="2020-12-03T19:09:21 EET"
-					duration-ms="13919" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByColor -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:19 EET" name="afterEachTest" finished-at="2020-12-04T17:48:19 EET" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterByColor status=SUCCESS method=AppliFashioTests.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:19 EET" name="beforeEachTest" finished-at="2020-12-04T17:48:23 EET" duration-ms="3151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:23 EET" name="filterByColor" data-provider="versionData" finished-at="2020-12-04T17:48:32 EET" duration-ms="9694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonDev.html+Dev_Branch_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- filterByColor -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:21 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:09:22 EET" duration-ms="679"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=filterByColor status=SUCCESS method=test.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:22 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:09:25 EET" duration-ms="3432"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:25 EET" name="filterByColor"
-					data-provider="versionData" finished-at="2020-12-03T19:09:39 EET"
-					duration-ms="13761" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByColor -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:32 EET" name="afterEachTest" finished-at="2020-12-04T17:48:33 EET" duration-ms="756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterByColor status=SUCCESS method=AppliFashioTests.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:33 EET" name="beforeEachTest" finished-at="2020-12-04T17:48:36 EET" duration-ms="3137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:36 EET" name="filterByColor" data-provider="versionData" finished-at="2020-12-04T17:48:44 EET" duration-ms="8098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonMasterV2.html+Final_Production_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- filterByColor -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:39 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:09:40 EET" duration-ms="752"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=filterByColor status=SUCCESS method=test.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:40 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:09:43 EET" duration-ms="3411"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:43 EET" name="validateMainPage"
-					data-provider="versionData" finished-at="2020-12-03T19:09:56 EET"
-					duration-ms="13024" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByColor -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:44 EET" name="afterEachTest" finished-at="2020-12-04T17:48:45 EET" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterByColor status=SUCCESS method=AppliFashioTests.filterByColor(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:45 EET" name="beforeEachTest" finished-at="2020-12-04T17:48:48 EET" duration-ms="3302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:48:48 EET" name="validateMainPage" data-provider="versionData" finished-at="2020-12-04T17:49:03 EET" duration-ms="14991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonMasterV1.html+V1_Production_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- validateMainPage -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:56 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:09:57 EET" duration-ms="718"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=validateMainPage status=SUCCESS method=test.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:09:57 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:10:00 EET" duration-ms="3472"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:10:00 EET" name="validateMainPage"
-					data-provider="versionData" finished-at="2020-12-03T19:10:15 EET"
-					duration-ms="14973" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMainPage -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:03 EET" name="afterEachTest" finished-at="2020-12-04T17:49:04 EET" duration-ms="634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMainPage status=SUCCESS method=AppliFashioTests.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:04 EET" name="beforeEachTest" finished-at="2020-12-04T17:49:07 EET" duration-ms="3216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:07 EET" name="validateMainPage" data-provider="versionData" finished-at="2020-12-04T17:49:16 EET" duration-ms="8449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonDev.html+Dev_Branch_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- validateMainPage -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:10:15 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:10:16 EET" duration-ms="740"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=validateMainPage status=SUCCESS method=test.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:10:16 EET" name="beforeEachTest"
-					finished-at="2020-12-03T19:10:19 EET" duration-ms="3411"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name={null} status=CREATED method=test.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- beforeEachTest -->
-				<test-method
-					signature="validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:10:19 EET" name="validateMainPage"
-					data-provider="versionData" finished-at="2020-12-03T19:10:35 EET"
-					duration-ms="15316" status="PASS">
-					<params>
-						<param index="0">
-							<value>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMainPage -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:16 EET" name="afterEachTest" finished-at="2020-12-04T17:49:16 EET" duration-ms="855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMainPage status=SUCCESS method=AppliFashioTests.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="beforeEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:16 EET" name="beforeEachTest" finished-at="2020-12-04T17:49:20 EET" duration-ms="3234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AppliFashioTests.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:20 EET" name="validateMainPage" data-provider="versionData" finished-at="2020-12-04T17:49:28 EET" duration-ms="8734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
                 <![CDATA[https://demo.applitools.com/tlcHackathonMasterV2.html+Final_Production_Version]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- validateMainPage -->
-				<test-method is-config="true"
-					signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:10:35 EET" name="afterEachTest"
-					finished-at="2020-12-03T19:10:35 EET" duration-ms="686"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[[TestResult name=validateMainPage status=SUCCESS method=test.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.test@470f1802] output={null}]]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterEachTest -->
-				<test-method is-config="true"
-					signature="afterTestSuite(org.testng.ITestContext)[pri:0, instance:appli.fashion.test.test@470f1802]"
-					started-at="2020-12-03T19:10:35 EET" name="afterTestSuite"
-					finished-at="2020-12-03T19:11:04 EET" duration-ms="28432"
-					status="PASS">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[org.testng.TestRunner@38087342]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- afterTestSuite -->
-			</class> <!-- appli.fashion.test.test -->
-		</test> <!-- Default test -->
-	</suite> <!-- Default suite -->
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMainPage -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:28 EET" name="afterEachTest" finished-at="2020-12-04T17:49:29 EET" duration-ms="700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateMainPage status=SUCCESS method=AppliFashioTests.validateMainPage(java.lang.String)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="afterTestSuite(org.testng.ITestContext)[pri:0, instance:appli.fashion.test.AppliFashioTests@470f1802]" started-at="2020-12-04T17:49:29 EET" name="afterTestSuite" finished-at="2020-12-04T17:49:57 EET" duration-ms="27584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5122e4bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- appli.fashion.test.AppliFashioTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
