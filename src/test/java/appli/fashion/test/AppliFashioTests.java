@@ -22,7 +22,7 @@ public class AppliFashioTests extends Base {
 
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
-			// 2. Set the configuration values we set up in beforeTestSuite
+			// Set the configuration values we set up in beforeTestSuite
 			eyes1.setConfiguration(testConfig1);
 		} else {
 			eyes.setConfiguration(testConfig);
@@ -48,7 +48,7 @@ public class AppliFashioTests extends Base {
 
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
-			// 2. Set the configuration values we set up in beforeTestSuite
+			// Set the configuration values we set up in beforeTestSuite
 			eyes1.setConfiguration(testConfig1);
 		} else {
 			eyes.setConfiguration(testConfig);
@@ -76,7 +76,7 @@ public class AppliFashioTests extends Base {
 
 		if (versionName.equalsIgnoreCase(getProperty("EnvName1"))
 				|| versionName.equalsIgnoreCase(getProperty("EnvName2"))) {
-			// 2. Set the configuration values we set up in beforeTestSuite
+			// Set the configuration values we set up in beforeTestSuite
 			eyes1.setConfiguration(testConfig1);
 		} else {
 			eyes.setConfiguration(testConfig);
